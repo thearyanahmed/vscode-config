@@ -4,12 +4,18 @@
     "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "none",
     "editor.cursorStyle": "line-thin",
+    // "editor.wordWrap": "on",
     
     "editor.fontSize": 15,
 
+    // "editor.fontFamily": "Cascadia Code",
+    // Controls the font family.
     "editor.fontFamily": "Fira Code",
+    // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
     "editor.lineHeight": 36,
+        // Enables font ligatures
     "editor.fontLigatures": true,
+        // Controls if file decorations should use badges.
     "explorer.decorations.badges": false,
 
     "zenMode.hideActivityBar": true,
@@ -24,8 +30,8 @@
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.overviewRulerBorder": false,
-    "editor.fontWeight": 400,
-    "workbench.colorTheme": "Material Theme Lighter High Contrast",
+    "editor.fontWeight": 100,
+    "workbench.colorTheme": "GitHub Light",
     "workbench.statusBar.visible": false,
     "outline.showNumbers": false,
     "breadcrumbs.showNumbers": false,
@@ -87,6 +93,7 @@
         "vscode-kubernetes.minikube-path.mac": "/Users/thearyanahmed/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
     },
     "editor.tokenColorCustomizations": {
+        // hello
         // "comments": "#2e2e2e4d"
     },
     "workbench.editor.centeredLayoutAutoResize": false,
